@@ -160,6 +160,7 @@ cython_debug/
 #.idea/
 
 *.csv
+output/
 env.py
 *.jpg
 *.png
