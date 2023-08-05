@@ -4,6 +4,7 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - pip
   - _libgcc_mutex=0.1=main
   - _openmp_mutex=5.1=1_gnu
   - abseil-cpp=20210324.2=h9c3ff4c_0
