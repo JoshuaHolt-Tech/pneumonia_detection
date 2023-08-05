@@ -161,6 +161,8 @@ cython_debug/
 
 *.csv
 output/
+data/
+.virtual_documents/
 env.py
 *.jpg
 *.png
