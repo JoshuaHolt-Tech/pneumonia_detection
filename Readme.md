@@ -26,7 +26,7 @@
 
 ## Abstract :book:
 
-This dataset, available on [Kaggle](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia), includes 5,863 X-Ray images, categorized into 2 categories: Pneumonia and Normal. The images are organized into three folders (train, validate and test) and contain subfolders for each image category (Pneumonia/Normal). The data was further seprated into bacterial and viral pneumonia based on information gathered from their filenames.
+This dataset, available on [Kaggle](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia) and [Data Mendeley](https://data.mendeley.com/datasets/rscbjbr9sj/2), includes chest X-Ray images categorized into 2 categories: Pneumonia and Normal. My notebook gathered information from their filenames to separate the pneumonia data further into bacterial and viral pneumonia sets. From there a Convolutional Neural Network is trained and used to classify previosuly unseen images into their respective diagnosis.
 
 ## Dataset Information :globe_with_meridians:
 <details>
@@ -38,12 +38,12 @@ The dataset is organized into three main folders:
 
 Each of these folders contains three subfolders:
 
-- bacterial_pneumonia, viral_pneumonia and NORMAL
+- bacterial_pneumonia, viral_pneumonia and normal
 
 </details>
 
 ## Goal :dart:
-The goal of this project is to use these images to train a machine learning model to classify the X-Ray images into these three categories.
+The goal of this project is to use these images to train a neural network model to classify the X-Ray images into three categories.
 
 ## Acquire :inbox_tray:
-You can download the dataset directly from [Kaggle](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia).
+When you run the notebook, it will automatically download and sort the ChestXRay2017 dataset from [Data Mendeley](https://data.mendeley.com/datasets/rscbjbr9sj/2). The origional file only comes with train and test folders so the validate is created from the train set.
