@@ -36,7 +36,7 @@ When you run the notebook, it automatically downloads and sorts the ChestXRay201
 <details>
     <summary> Pneumonia </summary>
     
-Pneumonia is an infection of the air sacs in one or both lungs. The air sacs may fill with fluid or pus (purulent material) which limits their ability to take in oxygen or expel carbon dioxide. A variety of infective agents can cause pneumonia including: bacteria, viruses and fungi. Viral pneumonia is usually mild and goes away on its own but can progress into bacterial pneumonia. Fungi pneumonia is less common. It usually occurs in people with chronic health problems or weakened immune systems and is not identified in this dataset.
+Pneumonia is an infection of the air sacs in one or both lungs. The air sacs may fill with fluid or pus (purulent material) which limits their ability to take in oxygen or expel carbon dioxide. A variety of infective agents can cause pneumonia including: bacteria, viruses and fungi. Viral pneumonia is usually mild and goes away on its own but can progress into bacterial pneumonia. Fungi pneumonia is less common. It usually occurs in people with chronic health problems or weakened immune systems and is not identified in this dataset. 
 
 - [Pneumonia](https://medlineplus.gov/pneumonia.html)
 - [Viral Pneumonia](https://www.webmd.com/lung/viral-pneumonia)
@@ -57,41 +57,46 @@ Chest x-rays are done for many reasons including the detection of pneumonia. A f
 <details>
     <summary> Pneumonia in chest x-rays </summary>
     
-Pneumonia presents in four different ways in chest x-rays:
+Pneumonia presents in many different ways in chest x-rays:
 
 * <details>
     <summary>Atypical pneumonia</summary>
 
-    [Atypical pneumonia](https://radiopaedia.org/articles/atypical-pneumonia?lang=us)
+    [Atypical pneumonia](https://radiopaedia.org/articles/atypical-pneumonia?lang=us) presents similar to bacterial pneumonia but is caused by a different bacteria. Opacities are normally located near the center of the chest where the blood enters and exits the lungs. This is the most common type of pneumonia when contracted in the general population, outside of a healthcare facility.
     
-    Image:
+    Image: ![Atypical pneumonia](readme_images/atypical-pneumonia.jpg)
     
-    Credit:
+    Credit: [Case](https://radiopaedia.org/cases/21993?lang=us) courtesy of Royal Melbourne Hospital Respiratory.
     
   </details>
 
 * <details>
     <summary>Round pneumonia</summary>
 
-    [Round pneumonia](https://radiopaedia.org/articles/round-pneumonia-1?lang=us) is usually only seen in pediatric patients. They are well defined, rounded opacities that represent regions of infected consolidation. The infective agent in round pneumonia is bacterial. The leading bacterial cause is streptococcus pneumoniae. It usually presents in a round-ish opacity, distinct from the surrounding tissue. Most cases occur in the top part of the lower lobes of the lungs.
+    [Round pneumonia](https://radiopaedia.org/articles/round-pneumonia-1?lang=us) is usually only seen in pediatric patients. They are well defined, rounded opacities that represent regions of infected consolidation. The infective agent in round pneumonia is bacterial. The leading bacterial cause is streptococcus pneumoniae. It shows up on X-rays as a round-ish opacity, distinct from the surrounding tissue. Most cases occur in the top part of the lower lobes of the lungs.
 
-    Image:
-    
+    Image: ![Round Pneumonia](readme_images/round-pneumonia.jpeg)
+
+    [Video](https://youtu.be/taImIMRBLFk)
+  
     Credit:
     
-    [Case](https://radiopaedia.org/cases/round-pneumonia-23?lang=us) courtesy of [Ryan Thibodeau](https://radiopaedia.org/)
+    [Case](https://radiopaedia.org/cases/round-pneumonia-23?lang=us) courtesy of Ryan Thibodeau
 
   </details>
 
 * <details>
     <summary>Cavitating pneumonia</summary>
 
-    [Cavitating pneumonia](https://radiopaedia.org/articles/cavitating-pneumonia?lang=us)
+    [Cavitating pneumonia](https://radiopaedia.org/articles/cavitating-pneumonia?lang=us) is a rare complication and associated with severe illness. Pediatric cases are most commonly caused by Streptococcus pneumoniae. It shows up on X-rays as darker spots or 'holes' that appear over the regular lung tissue. These darker spots indicate areas where the lung tissue has been damaged or lost due to the infection.
 
-    Image:
+    Image: ![Cavitating Pneumonia](readme_images/cavitating-pneumonia.jpg)
+
+    [Video](https://www.youtube.com/watch?v=jtwOSdAH5sM)
     
     Credit:
 
+    [Case](https://radiopaedia.org/cases/54686?lang=us) courtesy of Callum Smith
   </details>
 
 * <details>
@@ -99,9 +104,7 @@ Pneumonia presents in four different ways in chest x-rays:
 
     [Hemorrhagic pneumonia](https://radiopaedia.org/articles/haemorrhagic-pneumonia?lang=us)
     
-    Image:
-    
-    Credit:
+    Image: None
 
   </details>
 
