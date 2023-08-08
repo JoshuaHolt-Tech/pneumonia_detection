@@ -29,6 +29,7 @@ When you run the notebook, it automatically downloads and sorts the ChestXRay201
 X-ray
 pneumonia
 contrast
+[Compton Scattering](https://www.nde-ed.org/Physics/X-Ray/comptonscattering.xhtml)
 
 ## More information:
 <details>
@@ -36,16 +37,16 @@ contrast
     
 Pneumonia is an infection of the air sacs in one or both lungs. The air sacs may fill with fluid or pus (purulent material) which limits their ability to take in oxygen or expel carbon dioxide. A variety of organisms, including bacteria, viruses and fungi, can cause pneumonia. Pneumonia can start as viral or bacterial. Viral pneumonia is usually mild and goes away on its own but can progress into bacterial pneumonia. Fungi pneumonia is less common. It usually occurs in people with chronic health problems or weakened immune systems and is not identified in this dataset.
 
-[Pneumonia](https://medlineplus.gov/pneumonia.html)
-[Viral Pneumonia](https://www.webmd.com/lung/viral-pneumonia)
-[Bacterial Pneumonia](https://www.webmd.com/lung/bacterial-pneumonia)
-[Types of Pneumonia](https://www.webmd.com/lung/pneumonia-types)
+- [Pneumonia](https://medlineplus.gov/pneumonia.html)
+- [Viral Pneumonia](https://www.webmd.com/lung/viral-pneumonia)
+- [Bacterial Pneumonia](https://www.webmd.com/lung/bacterial-pneumonia)
+- [Types of Pneumonia](https://www.webmd.com/lung/pneumonia-types)
 
 [Bronchitis](https://www.healthline.com/health/bronchitis-vs-pneumonia#similarities-differences) is a similar condition where the bronchial tubes become inflamed and usually produced mucus. Bronchitis is usually less severe but can lead to the development of pneumonia.
 </details>
 <details>
     <summary> Chest X-Ray </summary>
-Chest x-rays are done for many reasons including the detection of pneumonia. A film or sensor is placed on one side of an object (in this case the chest cavity) and a shielded x-ray source on the other. The source will be briefly exposed, allowing high energy electromagnetic radiation, similar to light, to pass through the object and be collected by the film or sensor. X-rays darken or "expose" the film. As the x-rays pass through the object, they will interact with matter based on how dense it is. This is called [Compton Scattering](https://www.nde-ed.org/Physics/X-Ray/comptonscattering.xhtml). The denser a material is, the more scattering takes place and less x-rays reach the film or sensor. Areas on the film or sensor that receive a lot of x-rays are black and areas that do not are white. This difference is called "contrast." It allows us to see soft materials such as skin and muscle as a darker gray and harder materials such as metal and bones as a lighter gray. Pneumonia is detectable due to the buildup of mucus in the lungs. The mucus or liquid will scatter more x-rays, resulting in a lighter pattern in those areas versus areas filled with air or gas.
+Chest x-rays are done for many reasons including the detection of pneumonia. A film or sensor is placed on one side of an object (in this case the chest cavity) and a shielded x-ray source on the other. The source will be briefly exposed, allowing high energy electromagnetic radiation, similar to light, to pass through the object and be collected by the film or sensor. X-rays darken or "expose" the film. As the x-rays pass through the object, they will interact with matter based on how dense it is. This is called Compton Scattering. The denser a material is, the more scattering takes place and less x-rays reach the film or sensor. Areas on the film or sensor that receive a lot of x-rays are black and areas that do not are white. This difference is called "contrast." It allows us to see soft materials such as skin and muscle as a darker gray and harder materials such as metal and bones as a lighter gray. Pneumonia is detectable due to the buildup of mucus in the lungs. The mucus or liquid will scatter more x-rays, resulting in a lighter pattern in those areas versus areas filled with air or gas.
 
     
 [Radiology Website](https://radiologyassistant.nl/chest/chest-x-ray/lung-disease)
