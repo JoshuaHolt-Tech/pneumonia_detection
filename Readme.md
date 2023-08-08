@@ -64,7 +64,7 @@ Pneumonia presents in many different ways in chest x-rays:
 
     [Atypical pneumonia](https://radiopaedia.org/articles/atypical-pneumonia?lang=us) presents similar to bacterial pneumonia but is caused by a different bacteria. Opacities are normally located near the center of the chest where the blood enters and exits the lungs. This is the most common type of pneumonia when contracted in the general population, outside of a healthcare facility.
     
-    Image: ![Atypical pneumonia](readme_images/atypical-pneumonia.jpg)
+    Image: ![Atypical pneumonia](atypical-pneumonia.jpg)
     
     Credit: [Case](https://radiopaedia.org/cases/21993?lang=us) courtesy of Royal Melbourne Hospital Respiratory.
     
@@ -75,7 +75,7 @@ Pneumonia presents in many different ways in chest x-rays:
 
     [Round pneumonia](https://radiopaedia.org/articles/round-pneumonia-1?lang=us) is usually only seen in pediatric patients. They are well defined, rounded opacities that represent regions of infected consolidation. The infective agent in round pneumonia is bacterial. The leading bacterial cause is streptococcus pneumoniae. It shows up on X-rays as a round-ish opacity, distinct from the surrounding tissue. Most cases occur in the top part of the lower lobes of the lungs.
 
-    Image: ![Round Pneumonia](readme_images/round-pneumonia.jpeg)
+    Image: ![Round Pneumonia](round-pneumonia.jpeg)
 
     [Video](https://youtu.be/taImIMRBLFk)
   
@@ -90,7 +90,7 @@ Pneumonia presents in many different ways in chest x-rays:
 
     [Cavitating pneumonia](https://radiopaedia.org/articles/cavitating-pneumonia?lang=us) is a rare complication and associated with severe illness. Pediatric cases are most commonly caused by Streptococcus pneumoniae. It shows up on X-rays as darker spots or 'holes' that appear over the regular lung tissue. These darker spots indicate areas where the lung tissue has been damaged or lost due to the infection.
 
-    Image: ![Cavitating Pneumonia](readme_images/cavitating-pneumonia.jpg)
+    Image: ![Cavitating Pneumonia](cavitating-pneumonia.jpg)
 
     [Video](https://www.youtube.com/watch?v=jtwOSdAH5sM)
     
