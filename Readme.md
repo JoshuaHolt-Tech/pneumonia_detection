@@ -48,7 +48,7 @@ Pneumonia is an infection of the air sacs in one or both lungs. The air sacs may
 
 <details>
     <summary> Chest X-Ray </summary>
-Chest x-rays are done for many reasons including the detection of pneumonia. A film or sensor is placed on one side of an object (in this case the chest cavity) and a shielded x-ray source on the other. The source will be briefly exposed, allowing high energy electromagnetic radiation, similar to light, to pass through the object and be collected by the film or sensor. X-rays darken or "expose" the film. As the x-rays pass through the object, they will interact with matter based on how dense it is. This is called Compton Scattering. The denser a material is, the more scattering takes place and less x-rays reach the film or sensor. Areas on the film or sensor that receive a lot of x-rays are black and areas that do not are white. The difference is called contrast. It allows us to see soft materials such as skin and muscle as a darker gray and harder materials such as metal and bones as a lighter gray. Pneumonia is detectable due to the buildup of mucus in the lungs. The mucus or liquid will scatter more x-rays, resulting in a lighter pattern in those areas versus areas filled with air or gas.
+Chest x-rays are done for many reasons including the detection of pneumonia. A film or sensor is placed on one side of an object (in this case the chest cavity) and a shielded x-ray source on the other. The source will be briefly exposed, allowing high energy electromagnetic radiation, similar to light, to pass through the object and be collected by the film or sensor. X-rays darken or "expose" the film. As the x-rays pass through the object, they will interact with matter based on how dense it is. This is called Compton Scattering. The denser a material is, the more scattering takes place and less x-rays reach the film or sensor. Areas on the film or sensor that receive a lot of x-rays are black and areas that do not are white. The difference is called contrast. It allows us to see soft materials such as skin and muscle as a darker gray and harder materials such as metal and bones as a lighter gray. Pneumonia is detectable due to the buildup of mucus in the lungs. The mucus or liquid will scatter more x-rays, resulting in a lighter pattern in those areas versus areas filled with air or gases.
 
 [Radiology Website](https://radiologyassistant.nl/chest/chest-x-ray/lung-disease)
 
@@ -60,12 +60,17 @@ Chest x-rays are done for many reasons including the detection of pneumonia. A f
 Pneumonia presents in four different ways in chest x-rays:
 
 <details>
-    <summary>[Atypical pneumonia](https://radiopaedia.org/articles/atypical-pneumonia?lang=us)</summary>
+    <summary>Atypical pneumonia</summary>
+    
+[Atypical pneumonia](https://radiopaedia.org/articles/atypical-pneumonia?lang=us)
+Image:
+Credit:
 </details>
 
 <details>
-    <summary>[Round pneumonia](https://radiopaedia.org/articles/round-pneumonia-1?lang=us)</summary>
-Round pneumonia is usually only seen in pediatric patients. They are well defined, rounded opacities that represent regions of infected consolidation. The infective agent in round pneumonia is bacterial. The leading bacterial cause is streptococcus pneumoniae. It usually presents in a round-ish opacity, distinct from the surrounding tissue. Most cases occure in the top part of the lower lobes of the lungs.
+    <summary>Round pneumonia</summary>
+
+[Round pneumonia](https://radiopaedia.org/articles/round-pneumonia-1?lang=us) is usually only seen in pediatric patients. They are well defined, rounded opacities that represent regions of infected consolidation. The infective agent in round pneumonia is bacterial. The leading bacterial cause is streptococcus pneumoniae. It usually presents in a round-ish opacity, distinct from the surrounding tissue. Most cases occure in the top part of the lower lobes of the lungs.
 
 Image:
 Credit:
@@ -73,15 +78,17 @@ Credit:
 </details>
 
 <details>
-    <summary>[Cavitating pneumonia](https://radiopaedia.org/articles/cavitating-pneumonia?lang=us)</summary>
-Blurb:
+    <summary>Cavitating pneumonia</summary>
+    
+[Cavitating pneumonia](https://radiopaedia.org/articles/cavitating-pneumonia?lang=us)
 Image:
 Credit:
 </details>
 
 <details>
-    <summary>[Hemorrhagic pneumonia](https://radiopaedia.org/articles/haemorrhagic-pneumonia?lang=us)</summary>
-Blurb:
+    <summary>Hemorrhagic pneumonia</summary>
+    
+[Hemorrhagic pneumonia](https://radiopaedia.org/articles/haemorrhagic-pneumonia?lang=us)
 Image:
 Credit:
 </details>
