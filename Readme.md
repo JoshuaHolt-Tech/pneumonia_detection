@@ -57,41 +57,44 @@ Chest x-rays are done for many reasons including the detection of pneumonia. A f
 <details>
     <summary> Pneumonia in chest x-rays </summary>
     
-Pneumonia presents in four different ways in chest x-rays:
+        <ul>
+            <li> Pneumonia presents in four different ways in chest x-rays: <li>
+            
+        </ul>
 
-<details>
-    <summary>Atypical pneumonia</summary>
+    <details>
+        <summary>Atypical pneumonia</summary>
+        
+    [Atypical pneumonia](https://radiopaedia.org/articles/atypical-pneumonia?lang=us)
+    Image:
+    Credit:
+    </details>
     
-[Atypical pneumonia](https://radiopaedia.org/articles/atypical-pneumonia?lang=us)
-Image:
-Credit:
-</details>
-
-<details>
-    <summary>Round pneumonia</summary>
-
-[Round pneumonia](https://radiopaedia.org/articles/round-pneumonia-1?lang=us) is usually only seen in pediatric patients. They are well defined, rounded opacities that represent regions of infected consolidation. The infective agent in round pneumonia is bacterial. The leading bacterial cause is streptococcus pneumoniae. It usually presents in a round-ish opacity, distinct from the surrounding tissue. Most cases occure in the top part of the lower lobes of the lungs.
-
-Image:
-Credit:
-[Case](https://radiopaedia.org/cases/round-pneumonia-23?lang=us) courtesy of [Ryan Thibodeau](https://radiopaedia.org/)
-</details>
-
-<details>
-    <summary>Cavitating pneumonia</summary>
+    <details>
+        <summary>Round pneumonia</summary>
     
-[Cavitating pneumonia](https://radiopaedia.org/articles/cavitating-pneumonia?lang=us)
-Image:
-Credit:
-</details>
-
-<details>
-    <summary>Hemorrhagic pneumonia</summary>
+    [Round pneumonia](https://radiopaedia.org/articles/round-pneumonia-1?lang=us) is usually only seen in pediatric patients. They are well defined, rounded opacities that represent regions of infected consolidation. The infective agent in round pneumonia is bacterial. The leading bacterial cause is streptococcus pneumoniae. It usually presents in a round-ish opacity, distinct from the surrounding tissue. Most cases occure in the top part of the lower lobes of the lungs.
     
-[Hemorrhagic pneumonia](https://radiopaedia.org/articles/haemorrhagic-pneumonia?lang=us)
-Image:
-Credit:
-</details>
+    Image:
+    Credit:
+    [Case](https://radiopaedia.org/cases/round-pneumonia-23?lang=us) courtesy of [Ryan Thibodeau](https://radiopaedia.org/)
+    </details>
+    
+    <details>
+        <summary>Cavitating pneumonia</summary>
+        
+    [Cavitating pneumonia](https://radiopaedia.org/articles/cavitating-pneumonia?lang=us)
+    Image:
+    Credit:
+    </details>
+    
+    <details>
+        <summary>Hemorrhagic pneumonia</summary>
+        
+    [Hemorrhagic pneumonia](https://radiopaedia.org/articles/haemorrhagic-pneumonia?lang=us)
+    Image:
+    Credit:
+    </details>
 
 </details>
 
