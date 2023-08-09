@@ -43,6 +43,7 @@ When you run the notebook, it automatically downloads and sorts the ChestXRay201
 | Pulmonary                  | Related to the lungs. |
 | Radiolucency               | An area on a radiograph that appears darker because more X-rays pass through, typically indicating less dense tissue or air. |
 | Radiopacity                | An area on a radiograph that appears lighter due to X-rays being absorbed or deflected, typically indicating denser tissue or foreign material. |
+| Compton Scattering         | The interaction between a photon (from the X-ray or gamma ray) and a loosely bound outer electron of an atom. The photon transfers some of its energy to the electron, resulting in a change in the photon's direction and reduction in its energy.|
 
 ## More information:
 
@@ -63,7 +64,7 @@ Pneumonia is an infection of the air sacs in one or both lungs. The air sacs may
     <summary> Chest X-Ray </summary>
 Chest X-rays are employed for various diagnostic purposes, one of which is the detection of pneumonia. The procedure involves positioning a film or sensor on one side of the object (in this case, the chest cavity) and a shielded x-ray source on the opposite side. When the source is briefly activated, it emits high-energy electromagnetic radiation, akin to visible light. This radiation traverses the object and gets captured by the film or sensor. The interaction of X-rays with the film results in its darkening or "exposure".<br>
 <br>
-As X-rays pass through the body, their trajectory and intensity are influenced by the density of the matter they encounter. This phenomenon is known as [Compton Scattering](https://www.nde-ed.org/Physics/X-Ray/comptonscattering.xhtml). Denser materials cause more scattering, meaning fewer X-rays reach the film or sensor. Consequently, areas on the film or sensor that absorb abundant X-rays appear black, while those receiving fewer X-rays appear white. This variance is termed contrast, enabling visualization of softer tissues like skin and muscle in darker gray shades and denser substances such as bones and metal in lighter gray tones. In the context of pneumonia, the accumulation of mucus in the lungs will scatter more X-rays, causing the affected regions to appear lighter compared to areas filled predominantly with air.<br>
+As X-rays pass through the body, their trajectory and intensity are influenced by the density of the matter they encounter. This phenomenon is known as Compton Scattering. Denser materials cause more scattering, meaning fewer X-rays reach the film or sensor. Consequently, areas on the film or sensor that absorb abundant X-rays appear black, while those receiving fewer X-rays appear white. This variance is termed contrast, enabling visualization of softer tissues like skin and muscle in darker gray shades and denser substances such as bones and metal in lighter gray tones. In the context of pneumonia, the accumulation of mucus in the lungs will scatter more X-rays, causing the affected regions to appear lighter compared to areas filled predominantly with air.<br>
 <br>
 For a deeper dive into the interpretation of chest X-rays:<br>
 [Radiology Website](https://radiologyassistant.nl/chest/chest-x-ray/lung-disease)
