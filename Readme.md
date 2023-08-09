@@ -1,4 +1,4 @@
-![Cover Photo](chest-xray.jpeg)
+![Cover Photo](chest-xray.png)
 
 # Chest X-Ray Images (Pneumonia) :satellite:
 
