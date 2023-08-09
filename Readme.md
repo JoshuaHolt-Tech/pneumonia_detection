@@ -4,7 +4,7 @@
 
 ## Abstract :book:
 
-This dataset, available on [Kaggle](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia) and [Data Mendeley](https://data.mendeley.com/datasets/rscbjbr9sj/2), includes chest X-Ray images categorized into 2 categories: Pneumonia and Normal. The images are further separated into bacterial and viral pneumonia sets using labels gathered from their filenames. Afterwards a Convolutional Neural Network is trained and attempts to classify unseen images from the test set into their respective diagnosis.
+This dataset, available on [Kaggle](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia) and [Data Mendeley](https://data.mendeley.com/datasets/rscbjbr9sj/2), includes chest X-Ray images categorized into 2 categories: Pneumonia and Normal. The images are further separated into bacterial and viral pneumonia sets using labels gathered from their filenames. My first model will train a Convolutional Neural Netowrk to classify images as "pneumonia" or "nomral". Afterwards a second Convolutional Neural Network will be trained and attempts to classify images as "bacterial pneumonia" or "viral pneumonia".
 
 ## Dataset Information :globe_with_meridians:
 <details>
@@ -13,17 +13,16 @@ The dataset is organized into three main folders:
 
 - train, validate and test.
 
-Each of these folders contains three subfolders:
-
-- bacterial_pneumonia, viral_pneumonia and normal
+The first model will access the subfolders of NORMAL and PNEUMONIA from the chest_xray directory.
+The second model will access the subfolders of bacterial_pneumonia, viral_pneumonia and normal from the data directory.
 
 </details>
 
 ## Goal :dart:
-The goal of this project is to train a neural network model to classify X-Ray images into three categories: "Normal", "Viral Pneumonia" and "Bactrial Pneumonia".
+The goal of this project is to automatically classify X-Ray images into three categories: "Normal", "Viral Pneumonia" and "Bactrial Pneumonia".
 
 ## Acquire :inbox_tray:
-When you run the notebook, it automatically downloads and sorts the ChestXRay2017 dataset from [Data Mendeley](https://data.mendeley.com/datasets/rscbjbr9sj/2). The original files are in the "chest_xray/train" and "chest_xray/test" folders. The files will be further sorted to separate viral from bacterial pneumonia images and placed in a train, validate and test set. The validation data is created from the train set.
+When you run the notebook, it automatically downloads and sorts the ChestXRay2017 dataset from [Data Mendeley](https://data.mendeley.com/datasets/rscbjbr9sj/2). The original files are in the "chest_xray/train" and "chest_xray/test" folders. The files will be further sorted to separate viral from bacterial pneumonia images and placed in a train, validate and test set. The validation data is created from the train data set.
 
 ## Data Dictionary
 - X-ray
@@ -57,7 +56,27 @@ Chest x-rays are done for many reasons including the detection of pneumonia. A f
 <details>
     <summary> Pneumonia in chest x-rays </summary>
     
-Pneumonia presents in many different ways in chest x-rays:
+Pneumonia is not diagnosed just using chest x-rays. It is just a single piece of the puzzle. Here is how pneumonia presents in chest x-rays:
+
+* <details>
+    <summary>Viral pneumonia</summary>
+
+    [Viral pneumonia](https://radiopaedia.org/articles/viral-respiratory-tract-infection-1?lang=us) frequently manifests in chest X-rays with an interstitial pattern, showcasing a fine reticular (net-like) appearance. This is due to the inflammation of the lung tissue between the air sacs. The X-ray might also present with peribronchial thickening, leading to a "hazy" or "ground-glass" appearance in the lungs. Viruses such as influenza, respiratory syncytial virus (RSV), and SARS-CoV-2 are common culprits. While the changes are often bilateral and widespread, they tend to be more subtle compared to bacterial pneumonia.
+    
+    Image: ![Viral pneumonia](viral-pneumonia.jpg)
+    
+    Credit: [Case](https://radiopaedia.org/cases/75217?lang=us) courtesy of Joachim Feger
+  </details>
+
+* <details>
+    <summary>Bacterial pneumonia</summary>
+
+    [Bacterial pneumonia](https://radiopaedia.org/articles/bacterial-pneumonia?lang=us) often results in an alveolar or 'air-space' pattern on chest X-rays. This is characterized by areas of increased opacity (whiteness) indicating consolidation, where the alveoli are filled with inflammatory cells and exudate. The borders of the heart and diaphragm might be obscured in the region of consolidation, a phenomenon known as 'silhouette sign'. The predominant pathogens include Streptococcus pneumoniae, Haemophilus influenzae, and Klebsiella pneumoniae. The consolidation can involve an entire lobe (lobar pneumonia) or appear as patchy areas across multiple lobes.
+    
+    Image: ![Bacterial pneumonia](bacterial-pneumonia.jpg)
+    
+    Credit: [Case](https://radiopaedia.org/cases/29090?lang=us) courtesy of Jack Ren
+  </details>
 
 * <details>
     <summary>Atypical pneumonia</summary>
@@ -77,7 +96,7 @@ Pneumonia presents in many different ways in chest x-rays:
 
     Image: ![Round Pneumonia](round-pneumonia.jpeg)
 
-    [Video](https://youtu.be/taImIMRBLFk)
+    [Video](https://youtu.be/taImIMRBLFk) describing what to look for in the chest x-ray.
   
     Credit:
     
@@ -102,7 +121,7 @@ Pneumonia presents in many different ways in chest x-rays:
 * <details>
     <summary>Hemorrhagic pneumonia</summary>
 
-    [Hemorrhagic pneumonia](https://radiopaedia.org/articles/haemorrhagic-pneumonia?lang=us)
+    [Hemorrhagic pneumonia](https://radiopaedia.org/articles/haemorrhagic-pneumonia?lang=us) is a severe form of pneumonia where bleeding occurs within the lung parenchyma. On chest X-rays, it can manifest as areas of increased opacity, similar to consolidations seen in bacterial pneumonia. However, the distinct feature is the rapid progression and the presence of a dense, 'ground-glass' appearance indicating blood filling the alveoli. The areas of hemorrhage can be widespread or focal. Common pathogens causing hemorrhagic pneumonia include Staphylococcus aureus, especially the MRSA strain, and Klebsiella pneumoniae. It's essential to identify and treat this type swiftly due to its potential for rapid deterioration.
     
     Image: None
 
