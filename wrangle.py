@@ -22,10 +22,10 @@ def acquire_data(url=None, data_dir="data"):
         print("Download Complete")
 
         # Extracts usable files from downloaded zip file
-        print("Extracting content")
+        print("Extracting files")
         zipfile = ZipFile(BytesIO(req.content))
         zipfile.extractall(data_dir)
-        print("Extraction complete")
+        print("Files extracted")
 
         # Removes zip file
         os.remove(filename)
