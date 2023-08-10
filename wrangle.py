@@ -143,16 +143,41 @@ def prepare_data(random_seed=1969):
     # Separate bacterial and viral pneumonia images, then copy for second model
     unknown_pneumonia_files = 0
     for file in os.listdir(test_pneu_path):
-        source = os.path.join(test_pneu_path, file)
-        if file.find("virus") != (-1):
-            destination = os.path.join("data/test/viral_pneumonia/", file)
+        if file.endswith(".jpeg"):
+            source = os.path.join(test_pneu_path, file)
+            if file.find("virus") != (-1):
+                destination = os.path.join("data/test/viral_pneumonia/", file)
+                shutil.copy(source, destination)
+            elif file.find("bacteria") != (-1):
+                destination = os.path.join("data/test/bacterial_pneumonia/", file)
+                shutil.copy(source, destination)
+            else:
+                unknown_pneumonia_files += 1
+
+    # Checking if files don't contain indicators
+    if unknown_pneumonia_files > 0:
+        print(f"Files with unknown pneumonia type in test: {unknown_pneumonia_files}")
+
+    #Copying the train data to the second model's data directory
+    for file in os.listdir(train_norm_path):
+        if file.endswith(".jpeg"):
+            source = os.path.join(train_norm_path, file)
+            destination =os.path.join("data/train/normal/", file)
             shutil.copy(source, destination)
-        elif file.find("bacteria") != (-1):
-            destination = os.path.join("data/test/bacterial_pneumonia/", file)
-            shutil.copy(source, destination)
-            bacterial_files.append(file)
-        else:
-            unknown_pneumonia_files += 1
+
+    # Separate bacterial and viral pneumonia images, then copy for second model
+    unknown_pneumonia_files = 0
+    for file in os.listdir(train_pneu_path):
+        if file.endswith(".jpeg"):
+            source = os.path.join(train_pneu_path, file)
+            if file.find("virus") != (-1):
+                destination = os.path.join("data/train/viral_pneumonia/", file)
+                shutil.copy(source, destination)
+            elif file.find("bacteria") != (-1):
+                destination = os.path.join("data/train/bacterial_pneumonia/", file)
+                shutil.copy(source, destination)
+            else:
+                unknown_pneumonia_files += 1
 
     # Checking if files don't contain indicators
     if unknown_pneumonia_files > 0:
