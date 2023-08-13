@@ -162,6 +162,8 @@ cython_debug/
 *.csv
 output/
 data/
+TriclassOutput/
+BiclassOutput/
 .virtual_documents/
 env.py
 *.jpg
