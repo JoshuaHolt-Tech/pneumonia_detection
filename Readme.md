@@ -21,7 +21,7 @@ For the second model:
 </details>
 
 ## Goal :dart:
-The goal of this project is to automatically classify X-Ray images into three categories: "Normal", "Viral Pneumonia" and "Bactrial Pneumonia".
+The goal of this project is to automatically classify X-Ray images into three categories: "Normal", "Viral Pneumonia" and "Bacterial Pneumonia".
 
 ## Acquire :inbox_tray:
 When you run the notebook, it automatically downloads and sorts the ChestXRay2017 dataset from [Data Mendeley](https://data.mendeley.com/datasets/rscbjbr9sj/2). The original files reside in the "chest_xray/train" and "chest_xray/test" directories. These files will be further sorted to differentiate viral from bacterial pneumonia images, subsequently organized into train, validate, and test sets. The validation data is generated from the training dataset.
