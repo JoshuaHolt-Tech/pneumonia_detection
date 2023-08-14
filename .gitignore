@@ -166,6 +166,7 @@ TriclassOutput/
 BiclassOutput/
 .virtual_documents/
 env.py
+models/
 *.jpg
 *.png
 *.jpeg
