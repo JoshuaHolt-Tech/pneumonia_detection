@@ -170,3 +170,4 @@ env.py
 *.png
 *.jpeg
 data/
+models/
